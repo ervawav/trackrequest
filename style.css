@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #232323;
+    background-color: #2C3639;
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -32,7 +32,7 @@ body {
 
 .request-form input,
 .request-form textarea {
-    color: #f3f3f3;
+    color: #DCD7C9;
     background-color: #2b2b2b;
     width: 100%;
     padding: 0.75rem;
@@ -44,7 +44,7 @@ body {
 
 h1 {
     /* text-align: center; */
-    color: #b5b5b5;
+    color: #DCD7C9;
     
 }
 
