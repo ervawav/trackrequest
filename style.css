@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #2C3639;
+    background-color: #2E3740;
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -20,6 +20,18 @@ body {
 
 }
 
+/*img {
+
+}*/
+
+h1 {
+    /* text-align: center; */
+    color: #D0D9D8;
+    
+}
+
+/* FORM SIZING & SPACING */
+
 .request-form {
     width: 100%;
     max-width: 420px; /* sweet spot for mobile + desktop */
@@ -30,10 +42,13 @@ body {
 
 }
 
+
+/* FORM INPUT & TEXT AREA STYLING */
+
 .request-form input,
 .request-form textarea {
-    color: #DCD7C9;
-    background-color: #2b2b2b;
+    color: #D0D9D8;
+    background-color: #1D2025;
     width: 100%;
     padding: 0.75rem;
     padding-left: 14px;
@@ -42,26 +57,47 @@ body {
 
 }
 
-h1 {
-    /* text-align: center; */
-    color: #DCD7C9;
-    
+.request-form input::placeholder,
+.request-form textarea::placeholder {
+    color: #646e78;
+
+} 
+
+/*.request-form input:focus,
+.request-form textarea:focus {
+
+    background-color: #1D2025;
+    border-style: inset;
+    border: 1.5px;
+
+}*/
+
+.request-form textarea {
+    resize: none;
+    border-style: inset;
+    padding-top: 12px;
+   
 }
+
+
+/* FORM ELEMENT BORDERS */
 
 .request-form input,
 .request-form textarea,
 .request-form button {
     border: 1.5px;
-    border-color: #b5b5b5; 
+    border-color: #1D2025; 
     border-style: inset;
     border-radius: 8px;
 
-
 }
 
+
+/* BUTTON STYLING */
+
 .request-form button {
-    color: #b5b5b5;
-    background-color: #5a5a5a;
+    color: #2E3740;
+    background-color: #D0D9D8;
     width: 100%;
     margin: 0;
     font-size: 1rem;
@@ -71,30 +107,13 @@ h1 {
 }
 
 .request-form button:hover {
-    color: #2b2b2b;
-    background-color: #b5b5b5;
-    border-style: outset;
-    border-color: #000000
-
-}
-
-
-.request-form input::placeholder{
-    color: #646464;
-
-} 
-
-.request-form textarea::placeholder {
-    color: #646464;
-   
-}
-
-.request-form textarea {
-    resize: none;
+    color: #D0D9D8;
+    background-color: #1D2025;
     border-style: inset;
-    padding-top: 12px;
-   
+    border-color: #D0D9D8
+
 }
+
 
 /*div {
     width: 400px;
