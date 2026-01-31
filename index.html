@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- head is for metadata-->
+        <title>request a track</title>
+        <link href="songrequest.css" rel="stylesheet">
+    </head>
+    <body>
+
+        
+        <div class="page">
+            <form action="https://formspree.io/f/mlgbygye" method="POST" class="request-form">
+            <h1>request a track</h1>
+
+            <!--label for="track title" class="label">track title</label-->
+                <input type="text" name="track-title" class="input-field" placeholder="track title" required>
+            <br>
+            <br>
+            <!--label for="artist" class="label">artist</label-->
+                <input type="text" name="artist" class="input-field" placeholder="artist" required>
+            <br>
+            <br>
+            <!--label for="additional info" class="label">additional info</label-->
+                <!--div><input type="text" name="additional info" class="input-field" placeholder="additional info (remix, cover version, etc)"></div-->
+                <textarea name="additional info" placeholder="additional info"></textarea>
+            <br>
+            <br>
+            <button type="submit" value="send">send</button>
+        </div>
+
+        </form>
+    </body>
+
+</html>
