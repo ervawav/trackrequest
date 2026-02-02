@@ -6,9 +6,15 @@
 }
 
 body {
+    font-family: "Tektur", sans-serif;
+    font-weight: normal;
     background-color: #2E3740;
-    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(trackreq.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
+    margin: 0;
 }
 
 .page {
@@ -20,13 +26,40 @@ body {
 
 }
 
-/*img {
 
-}*/
+/* LOGO STYLING */
+
+.logo-link {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.25rem;
+  z-index: 10;
+}
+
+.logo-link:hover .logo {
+  opacity: 0.85;
+}
+
+.logo {
+  width: 85px;
+  height: auto;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5));
+
+}
+
+@media (max-width: 480px) {
+  .logo {
+    width: 48px;
+  }
+}
+
 
 h1 {
     /* text-align: center; */
     color: #D0D9D8;
+    font-weight: normal;
+    text-shadow: 1px 1px 6px #000000;
     
 }
 
@@ -63,14 +96,15 @@ h1 {
 
 } 
 
-/*.request-form input:focus,
+.request-form input:focus,
 .request-form textarea:focus {
 
-    background-color: #1D2025;
+    color: #1D2025;
+    background-color: #D0D9D8;
     border-style: inset;
     border: 1.5px;
 
-}*/
+}
 
 .request-form textarea {
     resize: none;
@@ -88,7 +122,8 @@ h1 {
     border: 1.5px;
     border-color: #1D2025; 
     border-style: inset;
-    border-radius: 8px;
+    /*border-radius: 8px;*/
+    box-shadow: 5px 5px #000000;
 
 }
 
@@ -102,7 +137,9 @@ h1 {
     margin: 0;
     font-size: 1rem;
     padding: 0.75rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Tektur", sans-serif;
+    font-style: normal;
+    font-weight: normal;
     
 }
 
@@ -114,6 +151,11 @@ h1 {
 
 }
 
+
+/*img {
+position: top left;
+
+}*/
 
 /*div {
     width: 400px;
