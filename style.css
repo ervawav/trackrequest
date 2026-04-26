@@ -168,7 +168,7 @@ body {
 }
 
 h1 {
-    color: #d3000b;
+    color: #f6f4f1;
     opacity: 85%;
     font-weight: 500;
     font-style: italic;
@@ -246,7 +246,7 @@ h2 {
 
 .request-form input::placeholder,
 .request-form textarea::placeholder {
-    color: #d3000b;
+    color: #f6f4f184;
 
 } 
 
@@ -278,25 +278,25 @@ h2 {
     backdrop-filter: blur(3px) saturate(180%);
     -webkit-backdrop-filter: blur(3px) saturate(180%);
     background-color: #d3d3d300;
-    border: 1px outset #d3000b;
+    border: 1px outset #f6f4f1;
 
     /*box-shadow: 5px 5px #000000;*/
 
 }
 
-.request-form input :active,
+/*.request-form input :active,
 .request-form textarea :active,
 .request-form button :active {
   color: #d3d3d3;
   border-color: #d3d3d3
 
-}
+}*/
 
 /* BUTTON STYLING */
 
 .request-form button {
     color: #d3000b;
-    background-color: #dfdedee2;
+    background-color: #f6f4f1;
     width: 100%;
     margin: 0;
     font-size: 1rem;
@@ -312,10 +312,10 @@ h2 {
 }
 
 .request-form button:hover {
-    color: #d3d3d3;
+    color: #f6f4f1;
     background-color: #d3000b;
     border-style: inset;
-    border-color: #1d1d1b;
+    border-color: #141413;
 
 }
 
