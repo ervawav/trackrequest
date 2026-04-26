@@ -12,7 +12,7 @@ body {
   margin: 0;
   min-height: 100vh;
 
-  background-color: #141413;
+  background-color: #2b2b2c;
 
   /*display: table;
   width: 100%;
@@ -296,7 +296,7 @@ h2 {
 
 .request-form button {
     color: #d3000b;
-    background-color: #f6f4f1;
+    background-color: #f6f4f1d8;
     width: 100%;
     margin: 0;
     font-size: 1rem;
@@ -315,7 +315,7 @@ h2 {
     color: #f6f4f1;
     background-color: #d3000b;
     border-style: inset;
-    border-color: #141413;
+    border-color: #2b2b2c;
 
 }
 
